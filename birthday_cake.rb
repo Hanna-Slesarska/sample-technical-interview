@@ -22,8 +22,7 @@ Birthday cake with 10 blown out candles
 require "active_support/all"
 
 class BirthdayCake
-  attr_accessor :age
-  attr_accessor :lit
+  attr_accessor :age, :lit
 
   def initialize(age)
     self.age = age
